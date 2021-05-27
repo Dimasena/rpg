@@ -8,7 +8,7 @@ SCREEN_WIDTH = 1500
 SCREEN_HEIGHT = 1000
 screen = pg.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
-bg_color = 'white'
+bg_color = (255, 102, 0)
 
 player = sp.Player((SCREEN_WIDTH/2, SCREEN_HEIGHT/2))
 player_group = pg.sprite.GroupSingle()
