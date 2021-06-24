@@ -11,7 +11,7 @@ class Frog(pg.sprite.Sprite):
         for i in range(1, 11):
             self.sprites.append(pg.image.load(f'frog/attack_{i}.png'))
         self.image = self.sprites[self.current_image]
-        self.rect = self.image.get_rect()
+        self.rect = self.image.get_rect() 
 
     def update(self):
         if self.animating:
